@@ -53,13 +53,13 @@
 
 # print(f"Hola! Me llamo {nombre} y tengo {Edad} años, mido {Altura} metros")
 
-# print("\nEjercicio 5: Números")
-# print("1. Crea una variable con el número PI (sin asignar una variable)")
-# print("2. Redondea el número con round()")
-# print("3. Haz la división entera entre el número que te salió y el número 2")
-# print("4. El resultado debería ser 1")
+print("\nEjercicio 5: Números")
+print("1. Crea una variable con el número PI (sin asignar una variable)")
+print("2. Redondea el número con round()")
+print("3. Haz la división entera entre el número que te salió y el número 2")
+print("4. El resultado debería ser 1")
 
-# PI = 3.14159
-# rounded = round(PI)
-# division = int(rounded / 2)
-# print(rounded, division)
+PI = 3.14159
+rounded = round(PI)
+division = int(rounded / 2)
+print(rounded, division)
