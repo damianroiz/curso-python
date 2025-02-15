@@ -67,7 +67,7 @@ import os
 os.system("clear")
 
 ###
-# EJERCICOS
+# EJERCICIOS
 ###
 
 # Ejercicio 1: El mensaje secreto

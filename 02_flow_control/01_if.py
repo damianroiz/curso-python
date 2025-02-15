@@ -141,7 +141,7 @@ print(mensaje)
 os.system("clear")
 
 ###
-# EJERCICOS
+# EJERCICIOS
 ###
 
 # Ejercicio 1: Determinar el mayor de dos números

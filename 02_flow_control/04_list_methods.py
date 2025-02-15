@@ -73,7 +73,7 @@ import os
 os.system("clear")
 
 ###
-# EJERCICOS
+# EJERCICIOS
 # Usa siempre que puedas los métodos que has aprendido
 ###
 
