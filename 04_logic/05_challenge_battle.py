@@ -39,14 +39,28 @@ resultado = battle(lista_a, lista_b)  # -> "x"
 # Algoritmos ocultos o cálculos o fórmulas
 # Programación dinámica: buscar una solución mas eficiente
 
+def battle(list_a, list_b):
+    if len(list_a) != len(list_b):
+        return "Las listas no tienen la misma longitud"
+    sumA = sum(list_a)
+    sumB = sum(list_b)
+    if sumA > sumB:
+        return f"{sumA - sumB}a"
+    elif sumB > sumA:
+        return f"{sumB - sumA}b"
+    else:
+        return "x"
 
-def battle(lista_a, lista_b):
-    puntos_a = sum(lista_a)
-    puntos_b = sum(lista_b)
-    return f"{puntos_a - puntos_b}a" if puntos_a > puntos_b else f"{puntos_b - puntos_a}b" if puntos_b > puntos_a else "x"
+print(battle([4, 4, 4], [2, 8, 2]))
 
 
-lista_a = [4, 4, 4]
-lista_b = [2, 8, 2]
-winner = battle(lista_a, lista_b)
-print(winner)
+# def battle(lista_a, lista_b):
+#     puntos_a = sum(lista_a)
+#     puntos_b = sum(lista_b)
+#     return f"{puntos_a - puntos_b}a" if puntos_a > puntos_b else f"{puntos_b - puntos_a}b" if puntos_b > puntos_a else "x"
+
+
+# lista_a = [4, 4, 4]
+# lista_b = [2, 8, 2]
+# winner = battle(lista_a, lista_b)
+# print(winner)
