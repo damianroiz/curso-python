@@ -9,6 +9,7 @@
 import os
 # system() nos permite ejecutar un comando en la terminal
 # en este caso lo hacemos para limpiar la pantalla
+os.system("clear")
 
 print("\n Sentencia simple condicional")
 

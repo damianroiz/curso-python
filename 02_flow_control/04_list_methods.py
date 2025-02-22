@@ -3,11 +3,10 @@
 # Los métodos más importantes para trabajar con listas
 ###
 
-
+# Creamos una lista con valores
 lista1 = ['a', 'b', 'c', 'd']
 
 # Añadir o insertar elementos a la lista
-
 lista1.append('e') # Añade un elemento al final
 print(lista1)
 
@@ -28,7 +27,7 @@ print(lista1)
 lista1.pop(1) # Eliminar el segundo elemento de la lista (es el índice 1)
 print(lista1)
 
-# Eliminar por lo bestia
+# Eliminar por lo bestia un índice
 del lista1[-1]
 print(lista1)
 
@@ -37,7 +36,7 @@ print(lista1)
 
 # Eliminar un rango de elementos
 lista1 = ['🐼', '🐨', '🐶', '😿', '🐹']
-del lista1[1:3]
+del lista1[1:3] # eliminamos los elementos del índice 1 al 3 (no incluye el índice 3)
 print(lista1)
 
 # Más métodos útiles
